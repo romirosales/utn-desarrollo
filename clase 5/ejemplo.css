@@ -1,0 +1,22 @@
+#rojo{
+    background-color: red;
+    width: 250px;
+    padding: 20px;
+    border: 5px dashed black;
+    box-sizing: border-box;
+}
+#azul{
+    background-color: blue;
+    width: 250px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+/*
+
+margin: 5px 10px 15px 20px;  arriba, derecha,abajo,izquiera (como el reloj)
+margin:5px 10px 15px; (arriba,los laterales en el medio quedan iguales, abajo)
+margin:5px 10px; (arriba y abajo y luego laterales) ejemplo Y X
+margin:10px; este es para todos iguales
+esta propiedad es para margin o padding
+*/

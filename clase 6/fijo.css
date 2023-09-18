@@ -1,0 +1,12 @@
+.caja{
+    background-color: red;
+    height: 50px;
+    /*width: 100%;*/
+    position: fixed; /*la posicion fija se adapta al contenido*/
+    top: 0;
+    z-index: index 200; /*es cuando vos queres que la navegacion quede arriba de todo y las otras capas o imagenes no se superpongan, podes tener 200 capas pero no se van a superponer con la navegacion*/
+}
+p{
+    background-color: yellow;
+    margin-top: 52px;
+}

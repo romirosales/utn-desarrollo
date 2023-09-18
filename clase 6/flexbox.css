@@ -1,0 +1,15 @@
+.contenedor{
+    background-color: grey;
+    /*display: flex;*/
+    display: inline-flex;
+   /* flex-direction: row;*/
+   flex-direction: row-reverse;
+   flex-direction: column-reverse;
+   flex-direction: column;
+}
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

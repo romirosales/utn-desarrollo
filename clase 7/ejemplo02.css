@@ -1,0 +1,18 @@
+.caja{
+    margin:200px ;
+    height:300px ;
+    width: 300px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    /*transition: all 0.8s ease;*//*la transicion debe ir en la caja padre del hover, pero No en el hover directamente*/
+    transform: rotate(-90deg);
+    transform: scale(1.2,0.6); /*se agranda el texto*/
+    
+}
+.caja:hover{
+    transform:scale(2) ;
+    /*transform: rotate(-90deg);*/
+}

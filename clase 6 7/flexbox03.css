@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;/*por defecto*/
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;/*es lo mismo que el space between, es un arreglo*/
+    
+}
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

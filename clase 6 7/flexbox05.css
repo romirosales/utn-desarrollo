@@ -1,0 +1,21 @@
+.contenedor{
+    background-color: grey;
+    height: 700px;
+    display: flex;
+    align-items:flex-start ;/* se utiliza items cuando estan en una sola linea*/
+    align-items: flex-end;
+    align-items: center;
+    /*align-items: stretch;/*es para adaptarlo a la medida de su caja padre, pero hay que sacarle la altura para que se modifique o ajuste a la caja*/
+    
+    
+}
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*para poner el contenido del item en el medio se puede lograr tambien con posicionamiento, text-align o line-height*/
+}

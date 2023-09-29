@@ -68,5 +68,6 @@ footer p{
     }
     aside{
         width: 100%;
+        display: none;/*de esta manera se "oculta" un elemento cuando se transforma la pantalla y quiero mostrar solo lo indispensable*/
     }
 }

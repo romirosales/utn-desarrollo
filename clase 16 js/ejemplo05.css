@@ -1,0 +1,15 @@
+.boton{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.alternar{
+    background-color: aqua;
+
+}
+//esta clase se maneja desde js//
+.alternar.activo{
+    background-color: blue;
+
+}

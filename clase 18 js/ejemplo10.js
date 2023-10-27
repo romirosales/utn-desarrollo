@@ -21,5 +21,11 @@ const empleados = [
         trabajo: 'desarrollador'
     },
 ]
-console.log(empleados.sort());
-console.log (empleados.find('desarrollador'))
+console.log(empleados.trabajo == 'desarrollador');
+//console.log(empleados.sort(buscar=>buscar.empleados));
+console.log (empleados.find(buscar=>buscar.trabajo='desarrollador'));
+console.log (empleados.filter(buscar=>buscar.trabajo=='desarrollador'));
+
+const nodesarr= empleados.filter((buscar=>buscar.trabajo !== 'desarrollador'));
+console.log(nodesarr);
+
